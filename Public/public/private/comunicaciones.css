@@ -57,6 +57,7 @@ body {
     }
 }
 
+
 /*seccion del header principal*/
 .main-header {
     padding: 0px;
@@ -135,63 +136,6 @@ body {
     padding: 10px 0px 10px 0px;
 }
 
-/*cluster areas style */
-
-.cluster-areas {
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow: hidden;
-}
-
-.row {
-    float: none;
-    display: block;
-    overflow: hidden;
-}
-
-.card {
-    box-sizing: border-box;
-    float: left;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 30%;
-    margin: 10px;
-    text-align: center;
-}
-
-.card > p {
-    /*Karla extra-light 200 */
-    font-family: 'Karla', sans-serif;
-    font-size: 18px;
-    color: #1e272e;
-}
-
-.card > h2 {
-    /*Spectral Regular 400 */
-    font-family: 'Spectral', serif;
-    color: #1e272e;
-}
-
-.card button {
-    border: none;
-    outline: 0;
-    padding: 12px;
-    color: white;
-    background-color: #1e272e;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
-}
-
-.card button:hover {
-    opacity: 0.7;
-}
-
-.card img {
-    width: 100%;
-}
-
 /* Tipografia de los articulos */
 
 article > h1 {
@@ -201,9 +145,26 @@ article > h1 {
     font-size: 30px;
 }
 
+article > h2 {
+    /*Spectral Regular 400 */
+    font-family: 'Spectral', serif;
+    color: #1e272e;
+}
+
+article > h3 {
+    /*Spectral Regular 400 */
+    font-family: 'Spectral', serif;
+    color: #1e272e;
+}
+
 article > p {
     /*Karla extra-light 200 */
     font-family: 'Karla', sans-serif;
     font-size: 22px;
     color: #1e272e;
+}
+
+article >p > a {
+    color: #3c40c6;
+    text-decoration: none;
 }

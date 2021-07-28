@@ -28,3 +28,7 @@ Prefijos en buscador de google:
 -Kit domotica
 -Caracteristicas de la domotica
 -Proyectos de domotica
+
+
+Fuentes de informacion:
+-https://www.xataka.com/domotica-1/quiero-convertir-mi-hogar-en-uno-inteligente-estos-son-los-principales-ecosistemas-domoticos-que-encontraras-en-la-actualidad

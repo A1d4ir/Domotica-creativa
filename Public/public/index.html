@@ -8,18 +8,157 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="private/home.js"></script>
     <link href="Imagenes/domotica.png" rel="shortcut icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Spectral&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap" rel="stylesheet">
     <title>Domotica creativa</title>
 </head>
 <body>
-    <header></header>
+    <header class="main-header">
+        <div class="main-header-img"><a href="http://127.0.0.1:5501/public/index.html"><img src="Imagenes/domotica.png" alt="Logo-domotica"></a></div>
+        <div class="main-header-title"><h1>Casa inteligente</h1></div>
+    </header>
     <nav class="topnav" id="mainTopnav">
-        <a href="#home" class="active">Home</a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
-        <a href="javascript:void(0);" class="icon"  onclick="myFunction()">
+        <a href="http://127.0.0.1:5501/public/index.html" class="active">Home</a>
+        <a href="#tienda">Tienda</a>
+        <a href="#tutoriales">Tutoriales</a>
+        
+        <a href="#doityourself">Hagalo usted mismo</a>
+        <a href="javascript:void(0);" class="icon"  id="icon-btn">
             <i class="fa fa-bars"></i>
         </a>
     </nav>
+    <section class="main-section">
+        <article>
+            <h1>¿Qué es la domótica?</h1>
+            <div class="leaderboard-banner"><!--Espacio para banner de adsense--></div>
+            <p>La palabra domótica proviene de la union de las palabras domus (casa en latin)
+                y autónomo (proveniente del girego: que se gobierna a si mismo).<br>
+                Por lo anterior, se puede decir que la domótica engloba a los sistemas capaces de automatizar una vivienda
+                o cualquier tipo de edificación, en areas como la gestión de energía, seguridad, bienestar y comunicación,
+                por lo regular se realiza una integración con redes interiores y exteriores de comunicación ya sea cableadas
+                o inalambricas, por lo tanto, se puede tomar control de estos sistemas tanto dentro como fuera de la vivienda
+                o edificación. En la siguiente sección encontrara mas informacion seccionada por areas, o bien puede navegar
+                por nuestro menu para buscar tutoriales, como comenzar en el mundo maker si es que le gusta hacer las cosas
+                por su cuenta o bien buscar lo que necesita en la tienda.
+            </p>
+        </article>
+        <article>
+            <h1>Areas de la domótica</h1>
+            <div class="cluster-areas">
+                <div class="row">
+                    <div class="card">
+                        <img src="Imagenes/comunicacion.jpg" alt="Comunicaciones">
+                        <h2>Comunicaciónes</h2>
+                        <p>
+                            Supervision y control remoto  de la vivienda.
+                        </p>
+                        <p><button id="abrirComunicaciones">Abrir</button></p>
+                    </div>
+                    <div class="card">
+                        <img src="Imagenes/energia.jpg" alt="Gestion energía Foto de Luca Nardone en Pexels">
+                        <h2>Gestion de energía</h2>
+                        <p>
+                            Control inteligente de la iluminación, climatización, etc.
+                        </p>
+                        <p><button>Abrir</button></p>
+                    </div>
+                    <div class="card">
+                        <img src="Imagenes/seguridad.jpg" alt="imagen de seguridad">
+                        <h2>seguridad</h2>
+                        <p>
+                            Vigilancia de bienes, animales o personas.
+                        </p>
+                        <p><button>Abrir</button></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="card">
+                        <img src="Imagenes/Confort.jpg" alt="imagen de confort">
+                        <h2>Confort</h2>
+                        <p>
+                            Gestión de dispositivos y actividades domesticas. 
+                        </p>
+                        <p><button>Abrir</button></p>
+                    </div>
+                    <div class="card">
+                        <img src="Imagenes/accesibilidad.jpg" alt="imagen de accesibilidad">
+                        <h2>Accesibilidad</h2>
+                        <p>
+                            Manejo de elementos por personas con discapacidades.
+                        </p>
+                        <p><button>Abrir</button></p>
+                    </div>
+                </div>   
+            </div>
+        </article>
+        <article>
+            <h1>Cómo convertir mi hogar en uno inteligente:</h1>
+            <div class="leaderboard-banner"><!-- Espacio para banner de adsense--></div>
+            <p>
+                Hace algunos años era  impensable implementar un hogar inteligente debido principalmente al elevado
+                costo de los dispositivos, sin embargo, en la actualidad existen diversas opciones y entornos a los
+                que nos podemos inclinar para lograr la conectividad de muestro hogar.<br>
+                Aunque existen diferentes entornos con grnandes competidores como antes se menciono, esto tambien nos
+                trae el problema de la fragmentación, esto es basicamente la falta de un estandar. Con esto en mente, en
+                este apartado hablamos de cada una de ellas y que ofrecen.
+            </p>
+            <div class="cluster-areas">
+                <div class="row">
+                    <div class="card">
+                        <img src="Imagenes/Alexa.jpg" alt="Amazon Alexa">
+                        <h2>Amazon y Alexa</h2>
+                        <p>
+                            La propuesta de Amazon para la domotica.
+                        </p>
+                        <p><button id="abrirAlexa">Abrir</button></p>
+                    </div>
+                    <div class="card">
+                        <img src="Imagenes/GoogleAssistant.jpg" alt="Google Assistant">
+                        <h2>Google Assistant</h2>
+                        <p>
+                            Mayordomo virtual de Google sutilmente colocado en nuestras vidas.
+                        </p>
+                        <p><button>Abrir</button></p>
+                    </div>
+                    <div class="card">
+                        <img src="Imagenes/AppleHK.png" alt="Apple Home Kit">
+                        <h2>Apple Home Kit</h2>
+                        <p>
+                            Apple apuesta por su base de usuarios con su solución para la domótica.
+                        </p>
+                        <p><button>Abrir</button></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="card">
+                        <img src="Imagenes/SamsungST.jpg" alt="Samsung SmartThings">
+                        <h2>Samsung SmartThings</h2>
+                        <p>
+                            El ecosistema domótico de Samsung basado en sus productos. 
+                        </p>
+                        <p><button>Abrir</button></p>
+                    </div>
+                    <div class="card">
+                        <img src="Imagenes/LGSmartThinQ.jpg" alt="LG SmartThinq">
+                        <h2>LG SmartThinQ</h2>
+                        <p>
+                            Una opción que se queda entre Alexa y Samsung StmartThings.
+                        </p>
+                        <p><button>Abrir</button></p>
+                    </div>
+                </div>   
+            </div>
+        </article>
+    </section>
+    <aside class="main-aside">
+        <!--Espacio para la publicidad de adsense-->
+    </aside>
+    <div class="footer-add"> <!--Espacio para colocacion de publicidad al final de la pagina--></div>
+    <footer class="main-footer">
+        <p>Blog especializado en domótica</p>
+    </footer>
 </body>
 </html>
