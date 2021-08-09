@@ -57,7 +57,6 @@ body {
     }
 }
 
-
 /*seccion del header principal*/
 .main-header {
     padding: 0px;
@@ -111,6 +110,33 @@ body {
     box-sizing: border-box;
 }
 
+/* Tipografia de los articulos */
+
+article > h1 {
+    /*Spectral Regular 400 */
+    font-family: 'Spectral', serif;
+    color: #1e272e;
+    font-size: 30px;
+}
+
+article > h2 {
+    /*Spectral Regular 400 */
+    font-family: 'Spectral', serif;
+    color: #1e272e;
+    font-size: 30px;
+}
+
+article > p {
+    /*Karla extra-light 200 */
+    font-family: 'Karla', sans-serif;
+    font-size: 22px;
+    color: #1e272e;
+}
+
+article > img {
+    max-width: 500px;
+}
+
 /*main-aside style*/
 
 .main-aside {
@@ -134,37 +160,4 @@ body {
 .main-footer > p {
     margin: 0px 0px 0px 100px;
     padding: 10px 0px 10px 0px;
-}
-
-/* Tipografia de los articulos */
-
-article > h1 {
-    /*Spectral Regular 400 */
-    font-family: 'Spectral', serif;
-    color: #1e272e;
-    font-size: 30px;
-}
-
-article > h2 {
-    /*Spectral Regular 400 */
-    font-family: 'Spectral', serif;
-    color: #1e272e;
-}
-
-article > h3 {
-    /*Spectral Regular 400 */
-    font-family: 'Spectral', serif;
-    color: #1e272e;
-}
-
-article > p {
-    /*Karla extra-light 200 */
-    font-family: 'Karla', sans-serif;
-    font-size: 22px;
-    color: #1e272e;
-}
-
-article >p > a {
-    color: #3c40c6;
-    text-decoration: none;
 }
