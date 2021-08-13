@@ -62,6 +62,7 @@ body {
     padding: 0px;
     margin: 0px 0px 0px 100px;
     overflow: hidden;
+    min-width: 262.117px;
 }
 
 .main-header > div > a > img {
@@ -85,8 +86,8 @@ body {
 
 .main-header-title{
     float: left;
-    display: block;
     text-align: center;
+    display: block;
     padding: 2px;
     margin: 0px;
     text-decoration: none;
@@ -99,15 +100,27 @@ body {
     margin: 0px;
 }
 
+@media screen and (max-width: 700px) {
+    .main-header {margin: 0px 0px 0px 0px;}
+}
+
+
 /*main-section styles*/
 
 .main-section {
     float: left;
     max-width: 70%;
-    min-width: 400px;
     padding: 0px;
     margin: 0px 0px 0px 100px;
     box-sizing: border-box;
+}
+
+@media screen and (max-width:700px){
+    .main-section {margin: 0px 10px 0px 10px;}
+}
+
+@media screen and (max-width:600px){
+    .main-section {max-width: 100%;}
 }
 
 /* Tipografia de los articulos */
@@ -126,11 +139,19 @@ article > p {
     color: #1e272e;
 }
 
-article > ul {
+article > ul > li{
     /*Karla extra-light 200 */
     font-family: 'Karla', sans-serif;
     font-size: 22px;
     color: #1e272e;
+    line-height: 30px;
+}
+
+@media screen and (max-width:600px) {
+    article > h1 {font-size: 23px;}
+    article > p {font-size: 16px;}
+    article > ul > li {font-size: 16px;}
+    article {max-width: 100%;}
 }
 
 /*main-aside style*/
@@ -141,6 +162,10 @@ article > ul {
     padding: 10px;
     margin: 10px;
     overflow: hidden;
+}
+
+@media screen and (max-width:600px){
+    .main-aside {display: none;}
 }
 
 /*main-footer style*/

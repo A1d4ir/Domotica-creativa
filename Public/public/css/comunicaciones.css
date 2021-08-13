@@ -100,15 +100,26 @@ body {
     margin: 0px;
 }
 
+@media screen and (max-width: 700px) {
+    .main-header {margin: 0px 0px 0px 0px;}
+}
+
 /*main-section styles*/
 
 .main-section {
     float: left;
     max-width: 70%;
-    min-width: 400px;
     padding: 0px;
     margin: 0px 0px 0px 100px;
     box-sizing: border-box;
+}
+
+@media screen and (max-width:700px){
+    .main-section {margin: 0px 10px 0px 10px;}
+}
+
+@media screen and (max-width:600px){
+    .main-section {max-width: 100%;}
 }
 
 /*main-aside style*/
@@ -119,6 +130,10 @@ body {
     padding: 10px;
     margin: 10px;
     overflow: hidden;
+}
+
+@media screen and (max-width:600px){
+    .main-aside {display: none;}
 }
 
 /*main-footer style*/
@@ -167,4 +182,12 @@ article > p {
 article > p > a {
     color: #3c40c6;
     text-decoration: none;
+}
+
+@media screen and (max-width:600px) {
+    article > h1 {font-size: 23px;}
+    article > p {font-size: 16px;}
+    article > h2 {font-size: 18px;}
+    article > h3 {font-size: 16px;}
+    article {max-width: 100%;}
 }
