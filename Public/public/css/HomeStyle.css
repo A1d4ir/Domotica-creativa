@@ -110,14 +110,16 @@ body {
 .main-section {
     float: left;
     max-width: 70%;
-    padding: 0px;
-    margin: 0px 0px 0px 100px;
+    padding: 10px;
+    margin: 5px 0px 5px 100px;
     box-sizing: border-box;
+    background-color: #eef1f5;
+    border-radius: 5px;
 }
 
 @media screen and (max-width:875px){
     .main-section {
-        margin: 0px 10px 0px 10px;
+        margin: 5px 10px 5px 10px;
         max-width: 100%;
     }
 }
@@ -168,11 +170,10 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: 10px;
     text-align: center;
-    flex:25%;
-    max-width: 32%;
+    flex:33%;
+    /*max-width: 32%;*/
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     justify-content: space-around;
 }
 
@@ -189,7 +190,7 @@ body {
     color: #1e272e;
 }
 
-.card button {
+.button {
     border: none;
     outline: 0;
     padding: 12px;
@@ -197,11 +198,12 @@ body {
     background-color: #1e272e;
     text-align: center;
     cursor: pointer;
-    width: 100%;
     font-size: 18px;
+    text-decoration: none;
+    transition: 0.2s;
 }
 
-.card button:hover {
+.button:hover {
     opacity: 0.7;
 }
 
@@ -210,8 +212,8 @@ body {
 }
 
 @media screen and (max-width:875px) {
-    .card > p {font-size: 15px;}
-    .card > h2 {font-size: 18px;}
+    .card > p {font-size: 18px;}
+    .card > h2 {font-size: 20px;}
 }
 
 @media screen and (max-width:600px) {
@@ -222,7 +224,7 @@ body {
     .card {
         max-width: 100%;
     }
-    .card > p {font-size: 16px;}
+    .card > p {font-size: 18px;}
     .card > h2 {font-size: 20px;}
 }
 
@@ -240,10 +242,11 @@ article > p {
     font-family: 'Karla', sans-serif;
     font-size: 22px;
     color: #1e272e;
+    line-height: 30px;
 }
 
 @media screen and (max-width: 600px) {
     article > h1 {font-size: 23px;}
-    article > p {font-size: 16px;}
+    article > p {font-size: 18px;}
     article {max-width: 100%;}
 }

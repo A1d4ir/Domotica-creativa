@@ -110,13 +110,15 @@ body {
 .main-section {
     float: left;
     max-width: 70%;
-    padding: 0px;
-    margin: 0px 0px 0px 100px;
+    padding: 10px;
+    margin: 5px 0px 5px 100px;
     box-sizing: border-box;
+    background-color: #eef1f5;
+    border-radius: 5px;
 }
 
 @media screen and (max-width:700px){
-    .main-section {margin: 0px 10px 0px 10px;}
+    .main-section {margin: 5px 10px 5px 10px;}
 }
 
 @media screen and (max-width:600px){
@@ -137,6 +139,7 @@ article > p {
     font-family: 'Karla', sans-serif;
     font-size: 22px;
     color: #1e272e;
+    line-height: 30px;
 }
 
 article > ul > li{
@@ -149,8 +152,8 @@ article > ul > li{
 
 @media screen and (max-width:600px) {
     article > h1 {font-size: 23px;}
-    article > p {font-size: 16px;}
-    article > ul > li {font-size: 16px;}
+    article > p {font-size: 18px;}
+    article > ul > li {font-size: 18px;}
     article {max-width: 100%;}
 }
 
