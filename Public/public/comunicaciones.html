@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--PAGE DESCRIPTION-->
     <meta name="description" content="
     En la domótica, las comunicaciones son una de las principales preocupaciones y tal vez el elemento que
     logra brindar mayor confort y casi todas las funcionalidades que promete la automatización del hogar, en
@@ -21,14 +22,19 @@
     -->
     
     <!-- End Google Tag Manager -->
+    <!--ICON-->
     <link href="img/domotica.png" rel="shortcut icon" />
+    <!--CUSTOM CSS-->
     <link rel="stylesheet" href="css/comunicaciones.css">
+    <!--CUSTOM COOKIES NOTICE CSS-->
     <link rel="stylesheet" href="css/cookies.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <!--CUSTOM JS-->
     <script src="js/comunicaciones.js"></script>
+    <!--FONT-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Spectral&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
@@ -46,19 +52,32 @@
 
     <!-- End Google Tag Manager (noscript) -->
     <main>
-        <header class="main-header">
-            <div class="main-header-img"><a href="./index.html"><img src="img/domotica.png" alt="Logo-domotica"></a></div>
-            <div class="main-header-title"><h1>Casa inteligente</h1></div>
-        </header>
-        <nav class="topnav" id="mainTopnav">
-            <a href="./index.html" class="active">Home</a>
-            <a href="./tienda.html">Tienda</a>
-            <a href="#Tutoriales">Tutoriales</a>
-            <a href="#DoItYourself">Hagalo usted mismo</a>
-            <a href="javascript:void(0);" class="icon"  id="icon-btn">
-                <i class="fa fa-bars"></i>
-            </a>
+        
+        <div class="menu-btn">
+            <i class="fa fa-bars fa-2x"></i> 
+        </div>
+
+        <!--Navigation-->
+        <nav class="topnav">
+            <!--Brand-->
+            <a href="./index.html"><img src="./img/domotica.png" alt="Domotica creativa" class="nav-brand"></a>
+            <ul class="nav-menu">
+                <li>
+                    <a href="https://domoticacreativa.com" class="active">Home</a>
+                </li>
+                <li>
+                    <a href="./tienda.html">Tienda</a>
+                </li>
+                <li>
+                    <a href="#tutoriales">Tutoriales</a>
+                </li>
+                <li>
+                    <a href="#doityourself">Hagalo usted mismo</a>
+                </li>
+            </ul>
         </nav>
+        <hr>
+
         <section class="main-section">
             <article class="main-article">
                 <h1>Comunicaciónes</h1>
@@ -119,13 +138,26 @@
                 </p>
             </article>
         </section>
-        <aside class="main-aside">
-            <!--Espacio para colocar publicidad adsense-->
-        </aside>
-        <footer class="main-footer">
-            <p>Blog especializado en domótica</p>
+
+        <!-- Follow -->
+        <section class="social">
+            <p>Sigue a domótica creativa</p>
+            <div class="links">
+                <a href="https://www.facebook.com/domoticacreativa" target="blank">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.youtube.com/channel/UClCdGRrf4PB2IV6PlOoiqcA" target="blank">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <h3>Blog especializado en domótica</h3>
         </footer>
+
     </main>
+
     <div class="aviso-cookies" id="aviso-cookies">
 		<img class="galleta" src="./img/cookie.svg" alt="Galleta">
 		<h3 class="titulo">Cookies</h3>
@@ -133,7 +165,9 @@
 		<button class="boton" id="btn-aceptar-cookies">De acuerdo</button>
 		<a class="enlace" href="aviso-cookies.html">Aviso de Cookies</a>
 	</div>
+
 	<div class="fondo-aviso-cookies" id="fondo-aviso-cookies"></div>
+    <!--CUSTOM COOKIES NOTICE JS-->
     <script src="js/cookies.js"></script>
 </body>
 </html>

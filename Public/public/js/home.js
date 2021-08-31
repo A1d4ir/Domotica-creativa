@@ -1,20 +1,12 @@
 window.onload = function() {
     
-    let topnavIconBtn = document.getElementById("icon-btn");
-
-    topnavIconBtn.addEventListener("click", function() {
-        
-        desplegarMenu();
-
+    document.querySelector('.menu-btn').addEventListener('click', () => {
+        document.querySelector('.nav-menu').classList.toggle('show');
     });
 
-    function desplegarMenu() {
-        var x = document.getElementById("mainTopnav");
-        if (x.className === "topnav"){
-            x.className += " responsive";
-        }else {
-            x.className = "topnav";
-        }
-    }
-    
+    ScrollReveal().reveal('.showcase');
+    ScrollReveal().reveal('.card', {delay: 500});
+    ScrollReveal().reveal('.cards-banner-one', {delay: 500});
+    ScrollReveal().reveal('.cards-banner-two', {delay: 500});
+
 }

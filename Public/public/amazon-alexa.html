@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--PAGE DESCRIPTION-->
     <meta name="description" content="
     Alexa es el asistente virtual de Amazon surgido como respuesta a empresas como Apple y Google,
     responde a comandos de voz y es compatible con una gran cantidad de dispositivos">
@@ -20,15 +21,19 @@
     -->
 
     <!-- End Google Tag Manager -->
+    <!--CUSTOM CSS-->
     <link rel="stylesheet" href="css/amazon-alexa.css">
+    <!--CUSTOM CSS NOTICE COOKIES-->
     <link rel="stylesheet" href="css/cookies.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <!--CUSTOM JS-->
     <script src="js/amazon-alexa.js"></script>
-    <script data-ad-client="ca-pub-1614646211770226" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!--ICON-->
     <link href="img/domotica.png" rel="shortcut icon" />
+    <!--FONT-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Spectral&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
@@ -47,20 +52,34 @@
     
         <!-- End Google Tag Manager (noscript) -->
     <main>
-        <header class="main-header">
-            <div class="main-header-img"><a href="https://domoticacreativa.com"><img src="img/domotica.png" alt="Logo-domotica"></a></div>
-            <div class="main-header-title"><h1>Casa inteligente</h1></div>
-        </header>
-        <nav class="topnav" id="mainTopnav">
-            <a href="https://domoticacreativa.com" class="active">Home</a>
-            <a href="./tienda.html">Tienda</a>
-            <a href="#tutoriales">Tutoriales</a>
-            <a href="#doityourself">Hagalo usted mismo</a>
-            <a href="javascript:void(0);" class="icon"  id="icon-btn">
-                <i class="fa fa-bars"></i>
-            </a>
+
+        <div class="menu-btn">
+            <i class="fa fa-bars fa-2x"></i> 
+        </div>
+
+        <!--Navigation-->
+        <nav class="topnav">
+            <!--Brand-->
+            <a href="./index.html"><img src="./img/domotica.png" alt="Domotica creativa" class="nav-brand"></a>
+            <ul class="nav-menu">
+                <li>
+                    <a href="https://domoticacreativa.com" class="active">Home</a>
+                </li>
+                <li>
+                    <a href="./tienda.html">Tienda</a>
+                </li>
+                <li>
+                    <a href="#tutoriales">Tutoriales</a>
+                </li>
+                <li>
+                    <a href="#doityourself">Hagalo usted mismo</a>
+                </li>
+            </ul>
         </nav>
+        <hr>
+
         <section  class="main-section">
+
             <article>
                 <h1>¿Qué se puede hacer con Amazon Alexa?</h1>
                 <img src="./img/AmazonAlexa.jpg" alt="Imagen de Alexa">
@@ -102,15 +121,30 @@
                     no son de marcas reconocidas pero si es posible encontrar sobre todo en los últimos años marcas mas populares.
                 </p>
             </article>
+
         </section>
-        <aside class="main-aside">
-            <!--Espacio para la publicidad de adsense-->
-        </aside>
+
+        <!-- Follow -->
+        <section class="social">
+            <p>Sigue a domótica creativa</p>
+            <div class="links">
+                <a href="https://www.facebook.com/domoticacreativa" target="blank">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.youtube.com/channel/UClCdGRrf4PB2IV6PlOoiqcA" target="blank">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+        </section>
+
         <div class="footer-add"> <!--Espacio para colocacion de publicidad al final de la pagina--></div>
-        <footer class="main-footer">
-            <p>Blog especializado en domótica</p>
+
+        <footer class="footer">
+            <h3>Blog especializado en domótica</h3>
         </footer>
+
     </main>
+
     <div class="aviso-cookies" id="aviso-cookies">
 		<img class="galleta" src="./img/cookie.svg" alt="Galleta">
 		<h3 class="titulo">Cookies</h3>
@@ -118,7 +152,10 @@
 		<button class="boton" id="btn-aceptar-cookies">De acuerdo</button>
 		<a class="enlace" href="aviso-cookies.html">Aviso de Cookies</a>
 	</div>
+
 	<div class="fondo-aviso-cookies" id="fondo-aviso-cookies"></div>
-    <script src="js/cookies.js"></script> 
+    <!--CUSTOM COOKIES NOTICE JS-->
+    <script src="js/cookies.js"></script>
+
 </body>
 </html>
