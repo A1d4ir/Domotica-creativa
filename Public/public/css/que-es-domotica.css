@@ -84,7 +84,27 @@ hr {
 /*main-section styles*/
 
 .main-section {
+    width: 70%;
+}
+
+/* SHOWCASE */
+
+.showcase {
     width: 100%;
+    height: 400px;
+    background: url("../img/mainshowcase2.jpg") no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+  
+.showcase h1 {
+    margin-bottom: 10px;
 }
 
 /*ARTICLE*/
@@ -92,7 +112,21 @@ hr {
 article > h1 {
     /*Spectral Regular 400 */
     font-family: 'Spectral', serif;
-    font-size: 30px;
+    font-size: 40px;
+    margin: 15px 0;
+}
+
+article > h2 {
+    /*Spectral Regular 400 */
+    font-family: 'Spectral', serif;
+    font-size: 32px;
+    margin: 15px 0;
+}
+
+article h3 {
+    /*Spectral Regular 400 */
+    font-family: 'Spectral', serif;
+    font-size: 26px;
     margin: 15px 0;
 }
 
@@ -101,6 +135,135 @@ article > p {
     font-family: 'Karla', sans-serif;
     font-size: 22px;
     line-height: 30px;
+}
+
+article > p > a {
+    color: #ffc048;
+}
+
+/* PARAGRAPH WITH IMAGE */
+
+.paragraph {
+    overflow: hidden;
+}
+
+.paragraph > img {
+    width: 50%;
+    float: right;
+    margin: 0 0 0 15px;
+}
+
+.paragraph p {
+    /*Karla extra-light 200 */
+    font-family: 'Karla', sans-serif;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+/* CARDS BANNER ONE */
+
+.cards-banner-one {
+    width: 100%;
+    height: 350px;
+    background: url("../img/AmazonAlexa.jpg");
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+}
+
+/*Estilos de los productos varios */
+
+.productos {
+    overflow: hidden;
+}
+
+.productos > .card-productos {
+    border: 1px solid #d2dae2;
+    padding: 0;
+    margin: 10px 0 10px 0;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+
+.productos > .card-productos > a > img {
+    width: 100px;
+}
+
+.productos > .card-productos > a {
+    padding: 0;
+    margin: 10px;
+}
+
+.productos > .card-productos > div {
+    font-family: 'Karla', sans-serif;
+    padding: 0;
+    margin: 10px;
+    display: block;
+}
+
+.card-productos > div > b > a{
+    color: #3c40c6;
+    text-decoration: none;
+}
+
+.card-productos > div > a {
+    color: #1e272e;
+    text-decoration: none;
+    background-color: #ffc048;
+    margin: 0;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0.5s;
+    font-size: 16px;
+    float: left;
+}
+
+.card-productos > div > a:hover {
+    background-color: #ffa801;
+}
+
+.card-productos {
+    box-shadow: 0px;
+    transition: 0.5s;
+}
+
+.card-productos:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* CARDS BANNER TWO*/
+.cards-banner-two {
+    width: 100%;
+    height: 350px;
+    background: url("../img/card-banner-two.jpg") no-repeat center center/cover;
+    margin: 30px 0;
+}
+
+.cards-banner-two .content {
+    width: 70%;
+    padding: 100px 0 0 30px;
+}
+
+.cards-banner-two p {
+    margin: 10px 0 20px 0;
+}
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #262626;
+    color: #fff;
+    font-size: 15px;
+    border: 1px solid #fff;
+}
+  
+.btn:hover {
+    opacity: 0.9;
 }
 
 /* Follow */
@@ -180,8 +343,20 @@ article > p {
         transform: translateX(-20px);
     }
 
-    article > h1 {font-size: 23px;}
+    .main-section {
+        width: 100%;
+    }
 
-    article > p {font-size: 18px;}
+    article > h1 {font-size: 36px;}
+
+    article > h2 {font-size: 32px;}
+
+    article > h3 {font-size: 28px;}
+
+    article > p {font-size: 23px;}
+
+    .cards-banner-two .content {
+        width: 90%;
+    }
     
 }

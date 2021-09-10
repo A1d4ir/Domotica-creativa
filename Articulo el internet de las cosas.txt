@@ -1,0 +1,7 @@
+Fuentes de información
+
+Cisco:
+Internet de las cosas: Cómo la próxima evolucion de internet lo cambia todo
+Autor: Dave Evans
+Abril de 2011
+https://www.cisco.com/c/dam/global/es_mx/solutions/executive/assets/pdf/internet-of-things-iot-ibsg.pdf
